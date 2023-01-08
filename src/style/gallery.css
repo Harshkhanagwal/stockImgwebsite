@@ -1,0 +1,33 @@
+.gallery-area{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+    
+}
+.gallery-area h1{
+    margin : 20px 0 ;
+}
+.imgArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgCard{
+    margin: 20px;
+    width: 25%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 100px;
+    font-weight: 500;
+}
